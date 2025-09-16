@@ -1,0 +1,20 @@
+
+nome = input("Qual é o seu nome, sinhô?: ")
+nivel_humor = int(input("Qual é o seu nìvel de humor hoje?: "))
+
+if nivel_humor <= 19:
+    print(f"{nome} seu nivel de humor está exausto 😫")
+elif nivel_humor <= 39:
+    print(f"{nome} seu nivel de humor está cansado 🥱")
+elif nivel_humor <= 59:
+    print(f"{nome} seu nivel de humor está neutro 😐")
+elif nivel_humor <= 79:
+    print(f"{nome} seu nivel de humor está animado 😀")
+elif nivel_humor <= 100:
+    print(f"{nome} seu nivel de humor está euforico 😁")
+else:
+    print(f"{nome} seu nivel de falicidade está invalida")
+
+
+
+    
