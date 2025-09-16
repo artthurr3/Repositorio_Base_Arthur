@@ -1,0 +1,10 @@
+import json
+
+dados = {
+    "filme": "Matrix",
+    "ano": 1999,
+    "genero": "Ficção Científica"
+}
+
+json_str = json.dumps(dados)
+print(json_str)
