@@ -1,0 +1,1 @@
+nivel_humor = int(input("Qual é o seu nìvel de humor hoje?: "))
